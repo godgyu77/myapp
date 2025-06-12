@@ -6,3 +6,92 @@
 
 ## 2. 진행상황
     - [0%]
+
+
+## 3. 구조
+    my-app
+    ├─ .npmrc
+    ├─ apps
+    │  ├─ docs
+    │  │  ├─ app
+    │  │  │  ├─ favicon.ico
+    │  │  │  ├─ fonts
+    │  │  │  │  ├─ GeistMonoVF.woff
+    │  │  │  │  └─ GeistVF.woff
+    │  │  │  ├─ globals.css
+    │  │  │  ├─ layout.tsx
+    │  │  │  ├─ page.module.css
+    │  │  │  └─ page.tsx
+    │  │  ├─ eslint.config.js
+    │  │  ├─ next-env.d.ts
+    │  │  ├─ next.config.js
+    │  │  ├─ package.json
+    │  │  ├─ public
+    │  │  │  ├─ file-text.svg
+    │  │  │  ├─ globe.svg
+    │  │  │  ├─ next.svg
+    │  │  │  ├─ turborepo-dark.svg
+    │  │  │  ├─ turborepo-light.svg
+    │  │  │  ├─ vercel.svg
+    │  │  │  └─ window.svg
+    │  │  ├─ README.md
+    │  │  └─ tsconfig.json
+    │  └─ web
+    │     ├─ app
+    │     │  ├─ components
+    │     │  ├─ favicon.ico
+    │     │  ├─ fonts
+    │     │  │  ├─ GeistMonoVF.woff
+    │     │  │  └─ GeistVF.woff
+    │     │  ├─ globals.css
+    │     │  ├─ layout.tsx
+    │     │  ├─ page.module.css
+    │     │  ├─ page.tsx
+    │     │  └─ types
+    │     │     └─ three.d.ts
+    │     ├─ eslint.config.js
+    │     ├─ next-env.d.ts
+    │     ├─ next.config.js
+    │     ├─ package.json
+    │     ├─ postcss.config.js
+    │     ├─ public
+    │     │  ├─ file-text.svg
+    │     │  ├─ globe.svg
+    │     │  ├─ next.svg
+    │     │  ├─ turborepo-dark.svg
+    │     │  ├─ turborepo-light.svg
+    │     │  ├─ vercel.svg
+    │     │  └─ window.svg
+    │     ├─ README.md
+    │     ├─ tailwind.config.js
+    │     └─ tsconfig.json
+    ├─ package.json
+    ├─ packages
+    │  ├─ eslint-config
+    │  │  ├─ base.js
+    │  │  ├─ next.js
+    │  │  ├─ package.json
+    │  │  ├─ react-internal.js
+    │  │  └─ README.md
+    │  ├─ typescript-config
+    │  │  ├─ base.json
+    │  │  ├─ nextjs.json
+    │  │  ├─ package.json
+    │  │  └─ react-library.json
+    │  └─ ui
+    │     ├─ eslint.config.mjs
+    │     ├─ package.json
+    │     ├─ src
+    │     │  ├─ button.tsx
+    │     │  ├─ card.tsx
+    │     │  └─ code.tsx
+    │     ├─ tsconfig.json
+    │     └─ turbo
+    │        └─ generators
+    │           ├─ config.ts
+    │           └─ templates
+    │              └─ component.hbs
+    ├─ pnpm-lock.yaml
+    ├─ pnpm-workspace.yaml
+    ├─ README.md
+    └─ turbo.json
